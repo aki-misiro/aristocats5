@@ -1,33 +1,4 @@
-<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Aristocats</title>
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
-<link href="images/favicon.png" rel="shortcut icon" type="image/png">
-<link href="images/touch-icon.png" rel="apple-touch-icon-precomposed">
-</head>
-<body class="home">
-<header class="page-header">
-   <div class="header-container">
-      <h1 class="header-logo">
-         <a href="index"><img src="images/header-logo.svg" alt="The Aristocats"></a>
-      </h1>
-      <a href="#" id="slidemenu-btn">
-         <span></span>
-         <span></span>
-         <span></span>
-      </a>
-   </div>
-</header>
+<?php get_header(); ?>
 <nav class="page-nav">
    <div class="nav-container" id="js-slidemenu">
       <ul class="globalnav">
@@ -42,15 +13,15 @@
 </nav>
 <div id="graphic">
 	<ul>
-		<li class="now"><img class="image1" src="images/slide1.jpg" alt=""></li>
-		<li><img class="image2" src="images/slide2.jpg" alt=""></li>
-		<li><img class="image3" src="images/slide3.jpg" alt=""></li>
+		<li class="now"><img class="image1" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slide1.jpg" alt=""></li>
+		<li><img class="image2" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slide2.jpg" alt=""></li>
+		<li><img class="image3" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slide3.jpg" alt=""></li>
 	</ul>
 </div>
 <div class="page-main">
    <div class="main-container">
       <div class="logo-cat">
-         <img src="images/logo-cat.svg" alt="">
+         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo-cat.svg" alt="">
       </div>
       <h2>ギルド情報</h2>
       <table class="guild-info">
@@ -83,17 +54,17 @@
       </table>
       <div class="center">
          <div>
-            <img src="images/img-base.png" id="bigimg">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/img-base.png" id="bigimg">
          </div>
          <ul>
-            <li><img id="main_image1" src="images/thumb-img-base.png" class="thumb" data-image="images/img-base.png"></li>
-            <li><img id="main_image2" src="images/thumb-img26.png" class="thumb" data-image="images/img26.png"></li>
-            <li><img id="main_image3" src="images/thumb-img25.png" class="thumb" data-image="images/img25.png"></li>
-            <li><img id="main_image4" src="images/thumb-img24.png" class="thumb" data-image="images/img24.png"></li>
+            <li><img id="main_image1" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-img-base.png" class="thumb" data-image="images/img-base.png"></li>
+            <li><img id="main_image2" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-img26.png" class="thumb" data-image="images/img26.png"></li>
+            <li><img id="main_image3" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-img25.png" class="thumb" data-image="images/img25.png"></li>
+            <li><img id="main_image4" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/thumb-img24.png" class="thumb" data-image="images/img24.png"></li>
          </ul>
          <div class="nav2">
-            <img id="prev" src="images/arrow-left.svg">
-            <img id="next" src="images/arrow-right.svg">
+            <img id="prev" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow-left.svg">
+            <img id="next" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow-right.svg">
          </div>
      </div>
    </div>
@@ -161,28 +132,7 @@
       </div>
    </div>
    <div class="gotop">
-      <a href="#top" class="footer-gotop"><img id="gotop" src="images/gotop-index.svg" alt="ページトップへ戻る"></a>
+      <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop-index.svg" alt="ページトップへ戻る"></a>
    </div>
 </div>
-<footer class="page-footer">
-   <div class="footer-container">
-      <div class="footer-logo">
-         <a href="index"><img src="images/footer-logo.svg" alt="The Aristocats"></a>
-      </div>
-      <ul class="footer-nav">
-         <li><a href="index">ホーム</a></li>
-         <li><a href="master">マスター挨拶</a></li>
-         <li><a href="member">メンバー</a></li>
-         <li><a href="rule">ギルドルール</a></li>
-         <li><a href="https://aristocats.space/">ブログ</a></li>
-         <li><a href="https://aristocats.space/contact/">お問い合わせ</a></li>
-      </ul>
-      <p class="copyright">&copy;&nbsp;&nbsp;The Aristocats&nbsp;&nbsp;All rights reserved</p>
-   </div>
-</footer>
-<script src="js/jquery-3.6.3.min.js"></script>
-<script src="js/index-script.js"></script>
-<script src="js/slideshow.js"></script>
-<script src="js/custom.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
