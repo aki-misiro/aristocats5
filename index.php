@@ -1,16 +1,5 @@
 <?php get_header(); ?>
-<nav class="page-nav">
-   <div class="nav-container" id="js-slidemenu">
-      <ul class="globalnav">
-         <li><a href="index">ホーム</a></li>
-         <li><a href="master">マスター挨拶</a></li>
-         <li><a href="member">メンバー</a></li>
-         <li><a href="rule">ギルドルール</a></li>
-         <li><a href="https://aristocats.space/">ブログ</a></li>
-         <li><a href="https://aristocats.space/contact/">お問い合わせ</a></li>
-      </ul>
-   </div>
-</nav>
+<div class="home">
 <div id="graphic">
 	<ul>
 		<li class="now"><img class="image1" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slide1.jpg" alt=""></li>
@@ -132,7 +121,8 @@
       </div>
    </div>
    <div class="gotop">
-      <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop-index.svg" alt="ページトップへ戻る"></a>
+      <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop.svg" alt="ページトップへ戻る"></a>
    </div>
+</div>
 </div>
 <?php get_footer(); ?>

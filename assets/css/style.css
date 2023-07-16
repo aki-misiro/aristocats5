@@ -72,6 +72,9 @@ img {
    padding: 14px 0 14px 5px;
 }
 @media (min-width: 768px) {
+   .page-header {
+      border-bottom: 0;
+   }
    .header-container {
       padding: 35px 0 35px 30px;
    }
@@ -201,7 +204,7 @@ img {
       display: flex;
    }
    .globalnav li {
-      flex: 0 0 calc(1 / 6 * 100%);	
+      flex: 0 0 calc(1 / 8 * 100%);	
    }
    .globalnav li a {
       border-top: none;

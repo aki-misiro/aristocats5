@@ -20,4 +20,17 @@
          <span></span>
       </a>
    </div>
+   <nav class="page-nav">
+      <div class="nav-container" id="js-slidemenu">
+         <?php
+            wp_nav_menu(
+               array(
+                  'theme_location' => 'main-menu',
+                  'menu_class' => 'globalnav',
+                  'container' => false,
+               )
+            );
+         ?>
+      </div>
+   </nav>
 </header>
