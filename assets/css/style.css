@@ -204,7 +204,7 @@ img {
       display: flex;
    }
    .globalnav li {
-      flex: 0 0 calc(1 / 7 * 100%);	
+      flex: 0 0 calc(1 / 7 * 100%);
    }
    .globalnav li a {
       border-top: none;
