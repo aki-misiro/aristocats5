@@ -15,7 +15,6 @@ get_header(); ?>
          }
       ?>
       </div>
-      <?php get_template_part( 'template-parts/parts', 'pagination' ); ?>
    </div>
    <div class="gotop">
       <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop-index.svg" alt="ページトップへ戻る"></a>
