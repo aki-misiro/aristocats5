@@ -1,7 +1,7 @@
 <footer class="page-footer">
    <div class="footer-container">
       <div class="footer-logo">
-         <a href="index"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer-logo.svg" alt="The Aristocats"></a>
+         <a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/footer-logo.svg" alt="The Aristocats"></a>
       </div>
       <?php
          wp_nav_menu(
