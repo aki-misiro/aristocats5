@@ -9,7 +9,7 @@ document.getElementById('form-yuru').select.onchange = function() {
 	location.href = document.getElementById('form-yuru').select.value;
 };
 
-$(function(){
+jQuery(function($){
 	$('.tab-menu')
 	.on('click', 'li > a', function(event){
 		event.preventDefault();

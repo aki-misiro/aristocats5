@@ -46,18 +46,20 @@
 <div class="news">
    <div class="news-container">
       <div class="home-news">
-      <?php
-         if ( have_posts() ) {
-            while ( have_posts() ) {
-               the_post();
-               the_content();
-            }
-         }  
-      ?>
+         <div class="list-box">
+         <?php
+            if ( have_posts() ) {
+               while ( have_posts() ) {
+                  the_post();
+                  the_content();
+               }
+            }  
+         ?>
+         </div>
+         <div class="home-news_More">
+            <a href="news" class="home-news_More_Link">もっと見る</a>
+         </div>
       </div>
-   </div>
-   <div class="home-news_More">
-      <a href="news" class="home-news_More_Link">もっと見る</a>
    </div>
    <div class="gotop">
       <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop-index.svg" alt="ページトップへ戻る"></a>
