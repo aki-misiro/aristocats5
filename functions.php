@@ -31,6 +31,13 @@ function neko_enqueue_scripts() {
       '1.0.0',
       true
    );
+   wp_enqueue_script(
+      'neko-member-script',
+      get_template_directory_uri() . '/assets/js/member-script.js',
+      array(),
+      '1.0.0',
+      true
+   );
    wp_enqueue_style(
       'neko-normalize',
       get_template_directory_uri() . '/assets/css/normalize.css',
