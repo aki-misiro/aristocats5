@@ -57,7 +57,7 @@
          ?>
          </div>
          <div class="home-news_More">
-            <a href="https://aristocats.site/news/" class="home-news_More_Link">もっと見る</a>
+            <a href="news" class="home-news_More_Link">もっと見る</a>
          </div>
       </div>
    </div>
