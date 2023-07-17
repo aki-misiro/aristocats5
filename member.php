@@ -13,19 +13,19 @@ get_header(); ?>
       <form id="form">
          <p>
             <select name="select">
-               <option value="member.html#member1">ゆいにゃん</option>
-               <option value="member.html#member2">ゆん</option>
-               <option value="member.html#member3">アイン</option>
-               <option value="member.html#member4">アルリス</option>
-               <option value="member.html#member5">笑夢</option>
-               <option value="member.html#member6">蚊取り閃光</option>
-               <option value="member.html#member7">サイユノ</option>
-               <option value="member.html#member8">富条璃奈</option>
-               <option value="member.html#member9">福助</option>
-               <option value="member.html#member10">ふみてゃ</option>
-               <option value="member.html#member11">まひにゃ</option>
-               <option value="member.html#member12">Misiro</option>
-               <option value="member.html#member13">夜卜yato</option>
+               <option value="#member1">ゆいにゃん</option>
+               <option value="#member2">ゆん</option>
+               <option value="#member3">アイン</option>
+               <option value="#member4">アルリス</option>
+               <option value="#member5">笑夢</option>
+               <option value="#member6">蚊取り閃光</option>
+               <option value="#member7">サイユノ</option>
+               <option value="#member8">富条璃奈</option>
+               <option value="#member9">福助</option>
+               <option value="#member10">ふみてゃ</option>
+               <option value="#member11">まひにゃ</option>
+               <option value="#member12">Misiro</option>
+               <option value="#member13">夜卜yato</option>
             </select>
          </p>
      </form>
@@ -380,14 +380,14 @@ get_header(); ?>
       <form id="form-yuru">
          <p>
             <select name="select">
-               <option value="member.html#member101">アズ姉</option>
-               <option value="member.html#member102">ACARIA</option>
-               <option value="member.html#member103">ぁめ。</option>
-               <option value="member.html#member104">銀狼　白</option>
-               <option value="member.html#member105">ザトイチ</option>
-               <option value="member.html#member106">シュウ</option>
-               <option value="member.html#member107">みたま</option>
-               <option value="member.html#member108">みるくここあ</option>
+               <option value="#member101">アズ姉</option>
+               <option value="#member102">ACARIA</option>
+               <option value="#member103">ぁめ。</option>
+               <option value="#member104">銀狼　白</option>
+               <option value="#member105">ザトイチ</option>
+               <option value="#member106">シュウ</option>
+               <option value="#member107">みたま</option>
+               <option value="#member108">みるくここあ</option>
             </select>
          </p>
      </form>

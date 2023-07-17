@@ -11,13 +11,6 @@ add_action( 'after_setup_theme', 'neko_theme_setup' );
 function neko_enqueue_scripts() {
    wp_enqueue_script( 'jquery' );
    wp_enqueue_script(
-      'neko-index-script',
-      get_template_directory_uri() . '/assets/js/index-script.js',
-      array(),
-      '1.0.0',
-      true
-   );
-   wp_enqueue_script(
       'neko-slideshow',
       get_template_directory_uri() . '/assets/js/slideshow.js',
       array(),
