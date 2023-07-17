@@ -8,7 +8,7 @@ get_header(); ?>
       <div class="home-news">
          <div class="pagination">
             <div class="list-box">
-               <ul>
+               <p>お知らせ</p>
                <?php
                $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                $the_query = new WP_Query( array(
@@ -33,7 +33,6 @@ get_header(); ?>
                   echo '<div><p>お知らせはありません。</p></div>';
                endif;
                ?>
-               </ul>
             </div>
          
             <div class="pnavi">
@@ -54,8 +53,8 @@ get_header(); ?>
                   'total' => $the_query->max_num_pages,
                   'mid_size' => 1,
                   'current' => ($paged ? $paged : 1),
-                  'prev_text' => '< 前へ',
-                  'next_text' => '次へ >',
+                  'prev_text' => '&lt',
+                  'next_text' => '&gt',
                ));
                ?>
             </div>
