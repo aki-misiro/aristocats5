@@ -109,25 +109,25 @@ function shortcode_news_list() {
 }
 add_shortcode("news_list", "shortcode_news_list");
 
-function shortcode_news_list_more() {
-   $args = array(
-      'posts_per_page' => 10,  // 一覧に表示させる件数
-      'post_type' => 'news',  // お知らせのスラッグ
-      'post_status' => 'publish'
-   );
-   $the_query = new WP_Query( $args );
-   // お知らせ一覧用HTMLコード作成
-   if ( $the_query->have_posts() ) {
-      $html = '';
-      while ( $the_query->have_posts() ) :
-      $html .= '<dl>';
-      $the_query->the_post();
-      $date = get_the_content();
-      $title = get_the_title();
-      $html .= '<dt>'.$date.'</dt>'.'<dd>'.$title.'</dd>';
-      $html .= '</dl>';
-      endwhile;
-   }
-   return $html;
-}
-add_shortcode("news_list_more", "shortcode_news_list_more");
+// function shortcode_news_list_more() {
+//    $args = array(
+//       'posts_per_page' => 10,  // 一覧に表示させる件数
+//       'post_type' => 'news',  // お知らせのスラッグ
+//       'post_status' => 'publish'
+//    );
+//    $the_query = new WP_Query( $args );
+//    // お知らせ一覧用HTMLコード作成
+//    if ( $the_query->have_posts() ) {
+//       $html = '';
+//       while ( $the_query->have_posts() ) :
+//       $html .= '<dl>';
+//       $the_query->the_post();
+//       $date = get_the_content();
+//       $title = get_the_title();
+//       $html .= '<dt>'.$date.'</dt>'.'<dd>'.$title.'</dd>';
+//       $html .= '</dl>';
+//       endwhile;
+//    }
+//    return $html;
+// }
+// add_shortcode("news_list_more", "shortcode_news_list_more");
