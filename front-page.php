@@ -56,8 +56,8 @@
       ?>
       </div>
    </div>
-   <div class="home-News_More">
-      <a href="news" class="home-News_More_Link">もっと見る</a>
+   <div class="home-news_More">
+      <a href="news" class="home-news_More_Link">もっと見る</a>
    </div>
    <div class="gotop">
       <a href="#top" class="footer-gotop"><img id="gotop" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/gotop-index.svg" alt="ページトップへ戻る"></a>

@@ -509,11 +509,11 @@ img {
    font-size: 1rem;
    line-height: 1.5;
 }
-.home-News_More {
+.home-news_More {
 	text-align: center;
    margin-bottom: 60px;
 }
-.home-News_More_Link {
+.home-news_More_Link {
 	text-decoration: none;
 	border-radius: 0.2em;
 	opacity: 1;
@@ -527,9 +527,37 @@ img {
 	width: 100%;
 	max-width: 20em;
 }
-.home-News_More_Link:hover {
+.home-news_More_Link:hover {
 	background-color: #6d3c29;
 	color: #FFFFFF;
+}
+/* お知らせ詳細（もっと見る） */
+.pagination .pnavi {
+   text-align: center;
+   margin-top: 30px;
+}
+.pagination .page-numbers {
+	display: inline-block;
+	padding: .5em 1em;
+	text-decoration: none;
+	color: #3B4043;
+	border: 2px solid #edeceb;
+	border-radius: 0.2em;
+	background-color: #F7F6F5;
+	font-size: 0.875rem;
+}
+.pagination .page-numbers:hover {
+	border-color: #6d3c29;
+}
+.pagination .page-numbers.current {
+	color: #FFFFFF;
+	border-color: #6d3c29;
+	background-color: #6d3c29;
+}
+.pagination .page-numbers.dots {
+	padding: 0 .5em;
+	border: none;
+	background-color: transparent;
 }
 
 /**
