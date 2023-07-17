@@ -311,7 +311,7 @@ img {
       margin: 0 0 30px 0;
    }
    .footer-nav li {
-      margin: 0 1rem;
+      margin: 0 0.7rem;
    }
    .footer-nav li a:hover {
       opacity: .8;
@@ -336,13 +336,13 @@ img {
  */
 /* ホーム - メインコンテナ */
 .home .main-container {
-   padding: 30px 4% 0 4%;
+   padding: 30px 4% 60px 4%;
 }
 @media (min-width: 768px) {
    .home .main-container {
       max-width: 960px;
       margin: 0 auto;
-      padding: 80px 20px 0 20px;
+      padding: 80px 20px 60px 20px;
    }
 }
 /* ホーム - ニュースコンテナ */
@@ -478,7 +478,7 @@ img {
    }
 }
 .home-news {
-   padding: 20px;
+   padding: 10px 20px 15px 20px;
    background: #fff;
    border: 5px solid #f9dfd4;
    border-radius: 20px;
@@ -487,13 +487,13 @@ img {
    .home-news {
       max-width: 700px;
       margin: 0 auto;
-      padding: 40px;
+      padding: 30px 40px;
    }
 }
 .home-news dl {
    display: flex;
    margin: 0;
-   padding: 20px 0;
+   padding: 15px 0;
    border-top: 1px solid #f9dfd4;
 }
 .home-news dl:last-child {
@@ -505,7 +505,7 @@ img {
    line-height: 1.5;
 }
 .home-news dd {
-   margin: 0;
+   margin: 10px;
    font-size: 1rem;
    line-height: 1.5;
 }
