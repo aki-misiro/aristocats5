@@ -204,7 +204,7 @@ img {
       display: flex;
    }
    .globalnav li {
-      flex: 0 0 calc(1 / 7 * 100%);
+      flex: 0 0 calc(1 / 8 * 100%);
    }
    .globalnav li a {
       border-top: none;
@@ -311,7 +311,7 @@ img {
       margin: 0 0 30px 0;
    }
    .footer-nav li {
-      margin: 0 1rem;
+      margin: 0 0.8rem;
    }
    .footer-nav li a:hover {
       opacity: .8;
